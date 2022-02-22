@@ -12,40 +12,49 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>eQuizz</title>
 </head>
 
 <body>
     <nav class="shadow navbar">
         <div>
-            <a href="./index.html">&nbsp;eQuizz</a>
+            <a href="../index.html">&nbsp;eQuizz</a>
         </div>
 
         <a href="https://github.com/prakash855/Pencil-UI" target="_"><i class="bi bi-github"></i></a>
     </nav>
 
     <section class="container rules flex">
-        <div class="content_heading">Let's understand the rules!</div>
-        <ul class="rules_lists shadow flex">
-            <li>The Total number of question is Five.
-            </li>
-            <li>Each question is of Five point.
-                You'll get One minute to answer all questions.
-            </li>
-            <li> If you gives all answered correctly. </li>
-            <li>You'll be get Money Prize.
-            </li>
-            <li> If you're not score 50% of question. You'll be kick out.</li>
+        <div class="rules_lists shadow flex">
+            <div class="content_heading">Questions: 01/05</div>
+            <div class="content_about">Q. What is the data type of an array in JavaScript?</div>
+            <ul type="none">
+                <li> <input checked type="checkbox" id="checkbox1" name="checkbox1" value="checked">
+                    <label for="vehicle1"> array</label>
+                </li>
+
+                <li><input type="checkbox" id="checkbox2" name="checkbox2" value="unchecked">
+                    <label for="vehicle2"> object</label>
+                </li>
+
+                <li><input type="checkbox" id="checkbox2" name="checkbox2" value="unchecked">
+                    <label for="vehicle2"> string</label>
+                </li>
+
+                <li><input type="checkbox" id="checkbox2" name="checkbox2" value="unchecked">
+                    <label for="vehicle2"> JSON</label>
+                </li>
+            </ul>
             <div class="rules_actions flex">
                 <button class="btn dark_btn">
-                    <a href="./index.html">Back</a>
+                    <a href="../index.html">Stop</a>
                 </button>
                 <button class="btn info_btn">
-                    <a href="./pages/questionOne.html">Start</a>
+                    <a href="../pages/questionTwo.html">Next</a>
                 </button>
             </div>
-        </ul>
+        </div>
     </section>
 </body>
 
