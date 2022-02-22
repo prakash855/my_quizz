@@ -13,10 +13,32 @@
     justify-content: center;
 }
 
+.rules{
+    align-items: center;
+    height: max-content;
+    position: relative;
+    top: 8rem;
+}
+
 .card_name{
     margin: 0.3rem 0;
 }
 
 .varticle_card_footer{
     padding: 0.5rem;
+}
+
+.rules_lists{
+    list-style-type: none;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    display: block;
+}
+
+.rules_lists li{
+    padding: 1rem;
+}
+.rules_actions{
+    gap: 1rem;
+    padding: 0 1rem;
 }
