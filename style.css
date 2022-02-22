@@ -42,3 +42,9 @@
     gap: 1rem;
     padding: 0 1rem;
 }
+
+.result_lists{
+    padding: 2rem 1rem;
+    gap: 2rem;
+    display: block;
+}
