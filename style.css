@@ -1,0 +1,22 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+
+.quiz_head{
+    position: relative;
+    top: 5rem;
+}
+
+.container{
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card_name{
+    margin: 0.3rem 0;
+}
+
+.varticle_card_footer{
+    padding: 0 0.5rem;
+}
